@@ -2,7 +2,7 @@ Containerized local website with a FastAPI backend
 
 # Requirements
 
-- Podman / Docker installed
+- [Podman](https://podman.io/) / [Docker](https://www.docker.com/) installed
 
 # Installation
 
