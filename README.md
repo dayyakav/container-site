@@ -6,14 +6,22 @@ Containerized local website with a FastAPI backend
 
 # Installation
 
-1.  Build container:
+1. Clone this repo:
+
+    ```
+   git clone https://github.com/dayyakav/container-site.git
+    ```
+
+2.  Build container:
     
     ```
     podman build -t my-app .
     ```
     
-2.  Run:
+3.  Run:
     
     ```
     podman run -p 8000:8000 my-app
     ```
+
+4. Go to http://127.0.0.1:8000
