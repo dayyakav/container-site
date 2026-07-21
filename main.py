@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.responses import FileResponse
 from utils import get_uptime, get_hostname, get_python_version, get_platform, get_python_path, get_server_time
 
 app = FastAPI()
@@ -9,7 +9,7 @@ def read_index():
     return "index.html"
 
 @app.get("/styles.css", response_class=FileResponse)
-def read_index():
+def read_styles():
     return "styles.css"
 
 @app.get("/info")
