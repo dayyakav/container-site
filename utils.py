@@ -1,4 +1,5 @@
 import sys
+from datetime import datetime
 
 def get_uptime():
     with open('/proc/uptime', 'r') as f:
@@ -14,3 +15,12 @@ def get_hostname():
 
 def get_python_version():
     return sys.version
+
+def get_platform():
+    return sys.platform
+
+def get_python_path():
+    return sys.executable
+
+def get_server_time():
+    return datetime.now()
