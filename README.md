@@ -1,6 +1,4 @@
-Containerized local website with a FastAPI backend
-
-Nothing special, just some example
+Containerized local website with a FastAPI backend. Nothing special, just some example
 
 ## Screenshots
 
