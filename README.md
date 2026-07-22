@@ -1,17 +1,23 @@
 Containerized local website with a FastAPI backend
 
-# Requirements
+Nothing special, just some example
+
+## Screenshots
+
+<img src="screenshot.png" alt="screenshot.png" width="433" height="235">
+
+## Requirements
 
 - [Podman](https://podman.io/) / [Docker](https://www.docker.com/) installed
 
-# Installation
+## Installation
 
-1. Clone this repo:
-
+1.  Clone this repo:
+    
     ```
-   git clone https://github.com/dayyakav/container-site.git
+    git clone https://github.com/dayyakav/container-site.git
     ```
-
+    
 2.  Build container:
     
     ```
@@ -23,5 +29,5 @@ Containerized local website with a FastAPI backend
     ```
     podman run -p 8000:8000 my-app
     ```
-
-4. Go to http://127.0.0.1:8000
+    
+4.  Go to http://127.0.0.1:8000
