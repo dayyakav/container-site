@@ -1,4 +1,8 @@
-Containerized local website with a FastAPI backend. Nothing special, just some example
+Nothing special, just some example
+
+## What it does
+
+Single HTML page with a link to the '/info' API endpoint. What else?
 
 ## Screenshots
 
