@@ -23,7 +23,7 @@ def read_info():
     server_time = get_server_time()
 
     return {
-        "status": [
+        "info": [
         {"platform": platform},
         {"os_uptime": uptime},
         {"hostname": hostname},
